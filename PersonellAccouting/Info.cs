@@ -36,7 +36,8 @@ namespace PersonellAccouting
                 ParentTwoSurname.Text = _student.ParentTwoSurname;
                 ParentTwoPhone.Text = _student.ParentTwoPhone;
             }
-
+            else
+                StudentYear.Text = DateTime.Now.Year.ToString();
         }
 
         private void LoadGroup()
